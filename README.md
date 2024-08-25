@@ -80,7 +80,7 @@ Guarda este DataFrame en una tabla llamada customers en la base de datos SQLite.
 
 - **Resultado:** Los datos de los clientes generados se almacenan en la tabla customers de la base de datos SQLite3, listos para ser utilizados en otras partes del proyecto.
 
-##**Crear y Guardar Datos de Sucursales**
+## **Crear y Guardar Datos de Sucursales**
 Este proyecto incluye una funcionalidad para generar datos ficticios de sucursales y guardarlos en una base de datos SQLite3. A continuación, se describe el propósito y funcionamiento del código correspondiente.
 
 **1.) Función para Crear la Tabla de Sucursales y Guardarla en SQLite3**
@@ -104,7 +104,7 @@ El DataFrame se guarda en una tabla llamada branches en la base de datos SQLite.
 
 - **Resultado:** Los datos generados se almacenan en la tabla branches de la base de datos SQLite3, listos para su uso en otras partes del proyecto.
 
-##**Crear y Guardar Tipos de Transacciones**
+## **Crear y Guardar Tipos de Transacciones**
 Esta sección del proyecto incluye una funcionalidad para generar una tabla de tipos de transacciones y guardarla en una base de datos SQLite3. A continuación, se detalla el propósito y funcionamiento del código correspondiente.
 
 **1.) Función para Crear la Tabla de Tipos de Transacciones y Guardarla en SQLite3**
@@ -127,7 +127,7 @@ El DataFrame se guarda en una tabla llamada transaction_types en la base de dato
 
 -**Resultado:** Los tipos de transacciones predefinidos se almacenan en la tabla transaction_types de la base de datos SQLite3, listos para ser utilizados en otras partes del proyecto.
 
-##**Crear y Guardar Datos de Transacciones**
+## **Crear y Guardar Datos de Transacciones**
 Esta sección del proyecto incluye una funcionalidad para generar una tabla de transacciones y guardarla en una base de datos SQLite3. A continuación, se detalla el propósito y funcionamiento del código correspondiente.
 
 **1.) Función para Crear la Tabla de Transacciones y Guardarla en SQLite3**
@@ -161,7 +161,7 @@ El DataFrame transactions_df se guarda en una tabla llamada transactions en la b
 
 -**Resultado:** Los datos de transacciones generados se almacenan en la tabla transactions de la base de datos SQLite3, listos para su análisis y uso en otras partes del proyecto.
 
-##**Verificar la Creación de Tablas en SQLite3**
+## **Verificar la Creación de Tablas en SQLite3**
 Este fragmento de código permite verificar que las tablas se han creado correctamente en la base de datos SQLite3 y cierra la conexión a la base de datos. A continuación, se describe el propósito y funcionamiento del código.
 
 **1.) Verificar la Creación de Tablas**
@@ -184,6 +184,6 @@ Los nombres de las tablas se imprimen en la consola para verificar que las tabla
 
 Cerrar la conexión es una buena práctica para asegurar que no queden conexiones abiertas que podrían causar bloqueos o problemas de rendimiento en la base de datos.
 
-##**Autor(es)**
+## **Autor(es)**
 Autor(es)
 Creado por **Jose Luis Sanchez Rios**
