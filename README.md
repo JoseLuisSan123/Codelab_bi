@@ -6,7 +6,7 @@ HOLA!!!!
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Ejemplo de Configuración de la Base de Datos](#ejemplo-de-configuración-de-la-base-de-datos)
-- [Obtener y Guardar Datos de Clientes Aleatorios](#Obtener y Guardar Datos de Clientes Aleatorios)
+- [Obtener y Guardar Datos de Clientes Aleatorios](#Obtener-y-Guardar-Datos-de-Clientes-Aleatorios)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 - [Autor(es)](#autores)
