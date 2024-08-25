@@ -1,9 +1,5 @@
 # Codelab_bi
 HOLA!!!!
-# **Nombre del Proyecto**
-
-Descripción breve del proyecto, qué hace y por qué es útil.
-
 ## **Tabla de Contenidos**
 - [Descripción](#descripción)
 - [Características](#características)
