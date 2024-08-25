@@ -24,16 +24,16 @@ Este proyecto se enfoca en la creación y gestión de una base de datos SQLite d
 
 ## **Instalación**
 Para la realización de este codigo necesitaremos intalar las siguientes librerias:
-sqlite3
-pandas 
-requests
-random
-uuid
-faker
-numpy
- shutil
+- sqlite3
+- pandas 
+- requests
+- random
+- uuid
+- faker
+- numpy
+- shutil
 
-##**Ejemplo de Configuración de la Base de Datos**
+## **Ejemplo de Configuración de la Base de Datos**
 Este proyecto incluye un script que configura una base de datos SQLite para almacenar datos financieros ficticios. A continuación, se explica el propósito de cada sección del código:
 
 1.) Se inicializa una instancia de la biblioteca Faker, utilizada para generar datos falsos realistas, como nombres de clientes y direcciones. (# Inicializar Faker)
