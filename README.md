@@ -11,8 +11,6 @@ HOLA!!!!
 - [Crear y Guardar Tipos de Transacciones](#Crear-y-Guardar-Tipos-de-Transacciones)
 - [Crear y Guardar Datos de Transacciones](#Crear-y-Guardar-Datos-de-Transacciones)
 - [Verificar la Creación de Tablas en SQLite3](#Verificar-la-Creación-de-Tablas-en-SQLite3)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 - [Autor(es)](#autores)
 
 ## **Descripción**
