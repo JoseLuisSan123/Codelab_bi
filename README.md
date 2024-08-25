@@ -4,7 +4,6 @@ HOLA!!!!
 - [Descripción](#descripción)
 - [Características](#características)
 - [Instalación](#instalación)
-- [Uso](#uso)
 - [Ejemplo de Configuración de la Base de Datos](#ejemplo-de-configuración-de-la-base-de-datos)
 - [Obtener y Guardar Datos de Clientes Aleatorios](#Obtener-y-Guardar-Datos-de-Clientes-Aleatorios)
 - [Crear y Guardar Datos de Sucursales](#Crear-y-Guardar-Datos-de-Sucursales)
