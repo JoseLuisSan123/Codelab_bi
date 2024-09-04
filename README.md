@@ -1,5 +1,7 @@
 # Codelab_bi
 HOLA!!!!
+Este es mi portafolio de Implementaciones de Business Intelligence:
+En este proyecto, se configura una base de datos en SQLite3 para almacenar información relacionada con transacciones financieras. La base de datos contiene datos sobre clientes, sucursales, tipos de transacciones y las propias transacciones. Los datos se generan de manera sintética utilizando la librería Faker y la API de randomuser.me.
 ## **Tabla de Contenidos**
 - [Descripción](#descripción)
 - [Características](#características)
@@ -10,6 +12,7 @@ HOLA!!!!
 - [Crear y Guardar Tipos de Transacciones](#Crear-y-Guardar-Tipos-de-Transacciones)
 - [Crear y Guardar Datos de Transacciones](#Crear-y-Guardar-Datos-de-Transacciones)
 - [Verificar la Creación de Tablas en SQLite3](#Verificar-la-Creación-de-Tablas-en-SQLite3)
+- [Explicación de Graficas](#Explicaión de Graficas)
 - [Autor(es)](#autores)
 
 ## **Descripción**
@@ -180,6 +183,9 @@ Los nombres de las tablas se imprimen en la consola para verificar que las tabla
 - **Importancia:**
 
 Cerrar la conexión es una buena práctica para asegurar que no queden conexiones abiertas que podrían causar bloqueos o problemas de rendimiento en la base de datos.
+
+## **Explicaión de Graficas**
+
 
 ## **Autor(es)**
 Autor(es)
