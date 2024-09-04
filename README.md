@@ -12,7 +12,7 @@ En este proyecto, se configura una base de datos en SQLite3 para almacenar infor
 - [Crear y Guardar Tipos de Transacciones](#Crear-y-Guardar-Tipos-de-Transacciones)
 - [Crear y Guardar Datos de Transacciones](#Crear-y-Guardar-Datos-de-Transacciones)
 - [Verificar la Creación de Tablas en SQLite3](#Verificar-la-Creación-de-Tablas-en-SQLite3)
-- [Explicación de Graficas](#Explicaión de Graficas)
+- [Explicación de Graficas](#Explicaión-de-Graficas)
 - [Autor(es)](#autores)
 
 ## **Descripción**
