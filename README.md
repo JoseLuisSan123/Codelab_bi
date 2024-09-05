@@ -191,7 +191,7 @@ Los nombres de las tablas se imprimen en la consola para verificar que las tabla
 Cerrar la conexión es una buena práctica para asegurar que no queden conexiones abiertas que podrían causar bloqueos o problemas de rendimiento en la base de datos.
 
 ## **Explicaión de Graficas**
-
+![descarga](https://github.com/user-attachments/assets/fe91ec0d-edd1-4af7-9416-9e3271d86c35)
 
 ## **Autor(es)**
 Autor(es)
