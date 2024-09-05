@@ -191,7 +191,66 @@ Los nombres de las tablas se imprimen en la consola para verificar que las tabla
 Cerrar la conexión es una buena práctica para asegurar que no queden conexiones abiertas que podrían causar bloqueos o problemas de rendimiento en la base de datos.
 
 ## **Explicaión de Graficas**
+
+**Grafico#1 conteo de registros por columna en la tabla de transacciones**
 ![descarga](https://github.com/user-attachments/assets/fe91ec0d-edd1-4af7-9416-9e3271d86c35)
+**Grafico#2 conteo de valores no nulos por columna en la tabla de transacciones**
+![descarga (1)](https://github.com/user-attachments/assets/5f4ab05e-22ab-4c5b-9858-339cce4291ad)
+
+En estas dos imagenes podemos ver dos graficas de barras con las mismas columnas de las tablas de transacciones. Cada barra tiene 1000 valores,  indicando que cada transacción incluye campos como transaction_id, customer_id, transaction_date, transaction_amount, transaction_location, transaction_type, fraudulent, y branch_id.
+Estos gráficos permiten verificar rápidamente que todas las columnas contienen el mismo número de registros, asegurando que los datos están completos para todas las transacciones.
+
+**Grafico#3**
+![descarga (2)](https://github.com/user-attachments/assets/6fd2774e-1b11-454e-89b9-cf8642896727)
+La gráfica se titula “Completitud de las variables (% de valores no nulos)”. Muestra una serie de barras verticales, cada una representando una variable diferente, como ‘embarazo_1’, ‘colonosc_1’, ‘mamografia_1’, ‘papanico_1’, ‘densitometria_1’, ‘mamografia_2’, ‘colonoscopia_2’, ‘densitometria_2’, y ‘tamizaje_cyf’.
+Todas las barras alcanzan el 100% en el eje vertical, lo que indica que para cada variable listada, el 100% de los valores no son nulos. Esto significa que no hay datos faltantes para estas variables, lo cual es importante en el análisis de datos ya que asegura que el conjunto de datos está completo para estas variables específicas.
+
+**Grafico#4**
+![descarga (3)](https://github.com/user-attachments/assets/8d8e9b2c-367c-4f36-8345-c98296713cf8)
+La gráfica se titula “Matriz de estadísticas descriptivas” y muestra dos conjuntos de datos: “transaction_amount” y “fraudulent”.
+
+transaction_amount
+**count:** 1000.0
+**mean:** 624.0
+**std:** 659.17
+**min:** 10.15
+**25%:** 264.22
+**50%:** 628.06
+**75%:** 780.54
+**max:** 4984.22 (resaltado en rojo por su valor significativamente alto)
+fraudulent
+**count:** 1.00
+**mean:** 0.05
+**std:** 0.22
+**min:** 0.00
+**25%:** 0.00
+**50%:** 0.00
+**75%:** 1.00
+**max:** 1.00
+
+La intensidad del color de las barras corresponde a sus valores, con tonos más oscuros representando números más altos, como se indica en la escala de colores a la derecha de la gráfica.
+
+**Grafico#5**
+![descarga (4)](https://github.com/user-attachments/assets/d0d0eaa9-05b7-4e02-9b9f-27646f84dab8)
+La gráfica muestra un histograma con una línea curva superpuesta, representando la distribución de la variable “transaction_amount”.
+
+Detalles de la gráfica:
+Eje X (transaction_amount): Rango de 0 a 5000.
+Eje Y (frecuencia): Rango de 0 a aproximadamente 160.
+Las barras del histograma disminuyen en altura a medida que aumenta el monto de la transacción, lo que indica que los montos de transacción más bajos ocurren con mayor frecuencia.
+
+
+**Grafico#6**
+![descarga (5)](https://github.com/user-attachments/assets/1d320d90-0515-4eda-82d2-a3ca77b78a71)
+La gráfica muestra una matriz de correlación en forma de mapa de calor con dos variables: ‘transaction_amount’ y ‘fraudulent’.
+
+Detalles de la gráfica:
+Eje X y Eje Y: Ambas variables están en los ejes X e Y.
+Escala de colores: Rango de 0.825 a 1.000, donde 1.00 indica una correlación perfecta.
+Diagonal: Muestra correlaciones perfectas de 1.00 para cada variable consigo misma.
+Elementos fuera de la diagonal: Muestran una correlación de 0.82 entre ‘transaction_amount’ y ‘fraudulent’, indicando una relación positiva fuerte.
+Este tipo de visualización es útil para resumir visualmente la fuerza de la relación entre dos variables, lo cual es importante en el análisis estadístico para identificar relaciones dentro de los datos.
+
 
 ## **Autor(es)**
 Autor(es)
