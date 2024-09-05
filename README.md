@@ -1,5 +1,11 @@
 # Codelab_bi
 HOLA!!!!
+- 👋 Soy @JoseLuisSan123
+- 👀 Estpy interesado en todo lo relacionado a analisis de datos y mercadeo
+- 🌱 Soy estudiante de administración de empresas de la universidad de la Sabana
+- 📫 Me puedes encontara en LinkedIn como www.linkedin.com/in/josesanchezrios
+- ⚡ Fun fact: En mis tiempos libres me gusta ir al gimnasio, jugar baloncesto y videojuegos
+
 Este es mi portafolio de Implementaciones de Business Intelligence:
 En este proyecto, se configura una base de datos en SQLite3 para almacenar información relacionada con transacciones financieras. La base de datos contiene datos sobre clientes, sucursales, tipos de transacciones y las propias transacciones. Los datos se generan de manera sintética utilizando la librería Faker y la API de randomuser.me.
 ## **Tabla de Contenidos**
